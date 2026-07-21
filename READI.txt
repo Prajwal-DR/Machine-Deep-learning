@@ -1,0 +1,151 @@
+"claudeCode.environmentVariables":  [
+
+                                            {
+                                                "name":  "CLAUDE_CODE_USE_FOUNDRY",
+                                                "value":  "1"
+                                            },
+                                            {
+                                                "name":  "ANTHROPIC_FOUNDRY_RESOURCE",
+                                                "value":  "aifp-bgsw-emw"
+                                            },
+                                            {
+                                                "name":  "ANTHROPIC_DEFAULT_SONNET_MODEL",
+                                                "value":  "claude-sonnet"
+                                            },
+                                            {
+                                                "name":  "ANTHROPIC_DEFAULT_HAIKU_MODEL",
+                                                "value":  "claude-haiku"
+                                            },
+                                            {
+                                                "name":  "ANTHROPIC_DEFAULT_OPUS_MODEL",
+                                                "value":  "claude-opus"
+                                            },
+                                            {
+                                                "name":  "ANTHROPIC_DEFAULT_OPUS_MODEL_SUPPORTED_CAPABILITIES",
+                                                "value":  "effort, max_effort, thinking, adaptive_thinking, interleaved_thinking"
+                                            },
+                                            {
+                                                "name":  "ANTHROPIC_DEFAULT_SONNET_MODEL_SUPPORTED_CAPABILITIES",
+                                                "value":  "effort, max_effort, thinking, adaptive_thinking, interleaved_thinking"
+                                            },
+                                            {
+                                                "name":  "ANTHROPIC_DEFAULT_HAIKU_MODEL_SUPPORTED_CAPABILITIES",
+                                                "value":  "thinking, interleaved_thinking"
+                                            }
+                                        ],
+										
+										
+										
+										
+"claudeCode.environmentVariables":  [
+
+                                            {
+                                                "name":  "CLAUDE_CODE_USE_VERTEX",
+                                                "value":  "1"
+                                            },
+                                            {
+                                                "name":  "CLOUD_ML_REGION",
+                                                "value":  "_"
+                                            },
+                                            {
+                                                "name":  "ANTHROPIC_VERTEX_PROJECT_ID",
+                                                "value":  "_"
+                                            },
+                                            {
+                                                "name":  "ANTHROPIC_VERTEX_BASE_URL",
+                                                "value":  "https://aoai-farm.bosch-temp.com/api/google/v1"
+                                            },
+                                            {
+                                                "name":  "CLAUDE_CODE_SKIP_VERTEX_AUTH",
+                                                "value":  "1"
+                                            },
+                                            {
+                                                "name":  "ANTHROPIC_AUTH_TOKEN",
+                                                "value":  "38b3968731954f4c88315151f5ee6205"
+                                            },
+                                        ],
+										
+										
+"claudeCode.environmentVariables": [
+											{
+											"name": "CLAUDE_CODE_SKIP_AUTH_LOGIN",
+											"value": "true"
+											},
+											{
+											"name": "ANTHROPIC_BASE_URL",
+											"value": "https://litellm.orchestration.bbm.ai.bosch.com"
+											},
+											{
+											"name": "ANTHROPIC_AUTH_TOKEN",
+											"value": "<Add your LiteLLM virtual key here>"
+											},
+											{
+											"name": "ANTHROPIC_MODEL",
+											"value": "claude-haiku-4-5"
+											},
+											{
+											"name": "ANTHROPIC_SMALL_FAST_MODEL",
+											"value": "claude-haiku-4-5@20251001"
+											},
+											{
+											"name": "CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY",
+											"value": "1"
+											},
+											{
+											"name": "ANTHROPIC_CUSTOM_HEADERS",
+											"value": "x-bmf-sticky-session-instance: 01"
+											}
+										],
+										
+export CLAUDE_CODE_SKIP_AUTH_LOGIN="true"
+export ANTHROPIC_BASE_URL="https://litellm.orchestration.bbm.ai.bosch.com"
+export ANTHROPIC_AUTH_TOKEN="Add your LiteLLM virtual key here"
+export ANTHROPIC_MODEL="claude-haiku-4-5"
+export ANTHROPIC_SMALL_FAST_MODEL="claude-haiku-4-5@20251001"
+export CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY=1
+
+personal key
+$env:ANTHROPIC_AUTH_TOKEN="sk-88eye0CBbLdARvyEkvJfVw"
+
+enterprise
+"sk-n1KIbVUYyhf1tLqlooFfNA"
+
+"claudeCode.environmentVariables":  [
+                                            {
+                                                "name":  "CLAUDE_CODE_USE_VERTEX",
+                                                "value":  "1"
+                                            },
+                                            {
+                                                "name": "ANTHROPIC_VERTEX_PROJECT_ID",
+                                                "value": "enterprise-ne-etas-bmf-prod"
+                                            }
+                                            {
+                                                "name":  "ANTHROPIC_VERTEX_BASE_URL",
+                                                "value":  "https://aoai-farm.bosch-temp.com/api/google/v1"
+                                            },
+                                            {
+                                                "name":  "ANTHROPIC_AUTH_TOKEN",
+                                                "value":  "53bf782bb1c84afe9fc750ad4f9f578c"
+                                            },
+                                            {
+                                                "name":  "ANTHROPIC_MODEL",
+                                                "value":  "claude-sonnet-4-6"
+                                            },
+                                            {
+                                                "name":  "ANTHROPIC_SMALL_FAST_MODEL",
+                                                "value":  "claude-haiku-4-5@20251001"
+                                            },
+                                            {
+                                                "name":  "CLAUDE_CODE_SKIP_VERTEX_AUTH",
+                                                "value":  "1"
+                                            }
+                                        ],
+										
+PoC project	-									
+Model 									zai-glm-52
+API Key								    5e712904793d0147e4d75d64b8d587f5
+base url                                https://crow-mk7395-msp-emea.app.bosch.com/
+
+Model 									Qwen3.6-35B
+API Key								    f0b13a596386e68123f87b25e9db91d5
+base url                                	https://owl-mk7395-msp-emea.app.bosch.com/
